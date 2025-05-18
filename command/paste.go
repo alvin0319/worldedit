@@ -36,5 +36,5 @@ func (Paste) Run(source cmd.Source, output *cmd.Output, tx *world.Tx) {
 }
 
 func (Paste) Allow(s cmd.Source) bool {
-	return playerOnly(s)
+	return allower(s)
 }

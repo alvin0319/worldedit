@@ -22,5 +22,5 @@ func (Wand) Run(source cmd.Source, output *cmd.Output, tx *world.Tx) {
 }
 
 func (Wand) Allow(s cmd.Source) bool {
-	return playerOnly(s)
+	return allower(s)
 }

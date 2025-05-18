@@ -24,5 +24,5 @@ func (Undo) Run(source cmd.Source, output *cmd.Output, tx *world.Tx) {
 }
 
 func (Undo) Allow(s cmd.Source) bool {
-	return playerOnly(s)
+	return allower(s)
 }

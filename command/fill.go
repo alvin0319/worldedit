@@ -49,5 +49,5 @@ func (f Fill) Run(source cmd.Source, output *cmd.Output, tx *world.Tx) {
 }
 
 func (Fill) Allow(s cmd.Source) bool {
-	return playerOnly(s)
+	return allower(s)
 }
